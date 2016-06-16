@@ -1,0 +1,537 @@
+
+/*entry */
+.section-margin-top { margin-top: 100px; }
+.section-margin-top1 { margin-top: 30px; }
+hr { border-top: 1px solid #111010; }
+
+.tm-section-header {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.tm-section-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 300;
+
+}
+
+
+
+/* tounaments */
+.about-section { margin-top: 150px; }
+.tm-about-box-1 {
+    background-color: white;
+    width: 255px;
+    height: 380px;
+    padding: 30px;
+    text-align: center;
+}
+.tm-about-box-1-img {
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    border: 5px solid #d4d4d4;
+    transition: all 0.3s ease;
+}
+.tm-about-box-1-img:hover,
+.tm-about-box-1-img:focus {
+    border: 5px solid #E8BA0F;
+}
+.tm-about-box-1-title {
+    font-size: 17px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.tm-about-box-1-title span {
+    font-size: 14px;
+    font-style: normal;
+    text-transform: none;
+}
+.tm-social-icon {
+    color: #B1B1B1;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.tm-social-icon:hover {	color: #E8BA0F; }
+.tm-testimonials-box {
+    width: 272px;
+    height: 530px;
+    background-color: #E8BA0F;
+    float: left;
+}
+.tm-testimonials-title {
+    background-color: rgb(96, 104, 116);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.tm-testimonials-content {
+    padding: 30px;
+    text-align: center;
+    font-style: italic;
+}
+.tm-testimonial {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.tm-what-we-do-right {
+    float: right;
+    margin-left: 30px;
+    max-width: 820px;
+    width: 100%;
+}
+.tm-about-box-2 { overflow: hidden; }
+.tm-about-box-2-img {
+    margin-bottom: 30px;
+}
+.tm-about-box-2-text {
+    float: left;
+}
+.tm-about-box-2-text {
+    margin-left: 40px;
+    max-width: 650px;
+    width: 100%;
+}
+.tm-about-box-2-title {
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.tm-about-box-2-description {
+    margin-right: 50px;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.tm-about-box-2-footer {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tm-about-box-2-footer-entry {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-style: italic;
+    color: #B1B1B1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* buttons */
+.tm-yellow-btn {
+    width: 100px;
+    height: 20px;
+    background-color: #ffffff;
+    border: medium none;
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+    margin: 5px auto;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.tm-yellow-gradient-bg {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5d11d+0,f3d10e+1,efcf1c+2,fccd0d+4,f7ca0d+5,f9cb1e+6,f7cb10+7,f8cc14+8,f0c40c+54,edc50c+55,e9c108+71,ecc008+78,e6be06+91,e9bd06+93,e8bc06+100 */
+    background: linear-gradient(to bottom right, rgba(3, 51, 99, 0.4), rgba(51, 255, 255, 0.4)); /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+    background: rgba(3, 51, 99, 0.4); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgba(3, 51, 99, 0.4), rgba(51, 255, 255, 0.4)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(3, 51, 99, 0.4), rgba(51, 255, 255, 0.4)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(3, 51, 99, 0.4), rgba(51, 255, 255, 0.4)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(3, 51, 99, 0.4), rgba(51, 255, 255, 0.4)); /* Standard syntax (must be last) */
+
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d11d', endColorstr='#e8bc06',GradientType=0 ); /* IE6-9 */
+}
+
+.form-control {	border-radius: 0; }
+.form-control:focus {
+    border-color: #FCDD44;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(252, 221, 68, 0.6);
+}
+
+.tm-box {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5d11d+0,f3d10e+1,efcf1c+2,fccd0d+4,f7ca0d+5,f9cb1e+6,f7cb10+7,f8cc14+8,f0c40c+54,edc50c+55,e9c108+71,ecc008+78,e6be06+91,e9bd06+93,e8bc06+100 */
+   /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d11d', endColorstr='#e8bc06',GradientType=0 ); /* IE6-9 */
+}
+
+
+/*home - banner*/
+
+/* Tours */
+.tm-tours-box-1 {
+    width: 100%;
+    max-width: 532px;
+    margin-bottom: 50px;
+}
+.tm-tours-box-1-info {
+    background: white;
+    padding: 40px;
+    overflow: hidden;
+}
+.tm-tours-box-1-info-left,
+.tm-tours-box-1-info-right {
+    float: left;
+    width: 50%;
+}
+.tm-tours-box-1-info-left {
+    border-right: 1px solid #B1B1B1;
+    padding-right: 30px;
+}
+.tm-tours-box-1-info-right { padding-left: 30px; }
+.margin-bottom-20 { margin-bottom: 20px; }
+.margin-bottom-30 { margin-bottom: 30px; }
+.gray-text { color: #B1B1B1; }
+.tours-1-description { line-height: 1.8; }
+.tm-tours-box-1-link { overflow: hidden }
+.tm-tours-box-1-link-left {
+    background-color: #1CA7C8;
+    padding: 20px 30px;
+    float: left;
+    width: 75%;
+    text-transform: uppercase;
+}
+.tm-tours-box-1-link-right {
+    float: left;
+    background-color: #1687A6;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    padding: 17px 30px;
+    width: 25%;
+    transition: all 0.3s;
+    text-align: center;
+    //margin-right: 50px;
+}
+.tm-tours-box-1-link-right:hover,
+.tm-tours-box-1-link-right:focus {
+    color: white;
+    background-color: #1D98B9;
+}
+.tm-tours-box-1-link-left,
+.tm-tours-box-1-link-right {
+    color: white;
+    height: 60px;
+}
+.tm-tours-box-2 {
+    max-width: 254px;
+    width: 100%;
+}
+.tm-tours-box-2-info h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b1b1b1;
+}
+.tm-tours-box-2-info {
+    padding: 20px;
+    border-left: 1px solid #E4E4E4;
+    border-right: 1px solid #E4E4E4;
+}
+.tm-tours-box-2-link {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #8C8C8C;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.tm-tours-box-2-link:hover,
+.tm-tours-box-2-link:focus {
+    color: white;
+    background-color: #E8BA0F;
+}
+
+.margin-bottom-15 { margin-bottom: 15px; }
+.margin-bottom-5 { margin-bottom: 5px; }
+
+/* About */
+.about-section { margin-top: 150px; }
+.tm-about-box-1 {
+    background-color: white;
+    width: 255px;
+    height: 380px;
+    padding: 30px;
+    text-align: center;
+}
+.tm-about-box-1-img {
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    border: 5px solid #d4d4d4;
+    transition: all 0.3s ease;
+}
+.tm-about-box-1-img:hover,
+.tm-about-box-1-img:focus {
+    border: 5px solid #E8BA0F;
+}
+.tm-about-box-1-title {
+    font-size: 17px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.tm-about-box-1-title span {
+    font-size: 14px;
+    font-style: normal;
+    text-transform: none;
+}
+
+.tm-banner-text {
+    margin-left: 60px;
+    margin-right: 60px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+/* Footer */
+.tm-black-bg {
+    margin-top: 150px;
+    background-color: #000;
+}
+
+.tm-copyright-text {
+    color: white;
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tm-copyright-text a {
+    color: #FCDD44;
+}
+
+.tm-copyright-text a:hover {
+    color: white;
+}
+
+
+/*slider*/
+/* http://www.menucool.com */
+
+#sliderFrame, #sliderFrame div {
+    box-sizing: content-box;
+}
+#sliderFrame
+{
+    width:900px;
+    margin:0 auto; /*center-aligned*/
+    margin-bottom: 100px;
+}
+
+#slider, #slider .sliderInner {
+    width:900px;
+    height:450px;/* Must be the same size as the slider images */
+    border-radius:3px;
+}
+
+#slider {
+    background-color:white;
+    position:relative;
+    margin:0 auto; /*center-aligned*/
+    transform: translate3d(0,0,0);
+    box-shadow: 0px 1px 5px #999999;
+}
+
+/* the link style (if an image is wrapped by a link) */
+#slider a.imgLink, #slider .video {
+    z-index:2;
+    cursor:pointer;
+    position:absolute;
+    top:0px;left:0px;border:0;padding:0;margin:0;
+    width:100%;height:100%;
+}
+#slider .video {
+    background:transparent url(video.png) no-repeat 50% 50%;
+}
+
+/* Caption styles */
+#slider .mc-caption {
+    position:absolute;
+    width:100%;
+    height:auto;
+    padding:10px 0;/* 10px will increase the height.*/
+    left:0px;
+    bottom:0px;top:auto;
+    overflow:hidden;
+    font: bold 14px/20px Arial;
+    color:#EEE;
+    text-align:center;
+    background:rgba(0,0,0,0.3);
+}
+#slider .mc-caption a {
+    color:#FB0;
+}
+#slider .mc-caption a:hover {
+    color:#DA0;
+}
+
+
+/* ------ built-in navigation bullets wrapper ------*/
+#slider .navBulletsWrapper  {
+    top:480px;
+    text-align:center;
+    background:none;
+    position:relative;
+    z-index:3;
+}
+
+/* each bullet */
+#slider .navBulletsWrapper div
+{
+    width:11px; height:11px;
+    font-size:0;color:White;/*hide the index number in the bullet element*/
+    background:transparent url(../image/bullet.png) no-repeat 0 0;
+    display:inline-block; *display:inline; zoom:1;
+    overflow:hidden;cursor:pointer;
+    margin:0 6px;/* set distance between each bullet*/
+}
+
+#slider .navBulletsWrapper .active {background-position:0 -11px;}
+
+
+/* --------- Others ------- */
+
+#slider img, #slider>b, #slider a>b {
+    position:absolute; border:none; display:none;
+}
+
+#slider .sliderInner {
+    overflow:hidden;
+    position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+
+
+/*-------------form------------------------------*/
+
+fieldset {
+    overflow: hidden
+}
+
+.some-class {
+    float: left;
+
+}
+
+label {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 2px 1em 0 0;
+    margin-right: 30px;
+}
+
+input[type=radio],
+input.radio {
+    float: left;
+    clear: none;
+    margin: 10px 0 0 2px;
+}
+
+/*callot*/
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+/* entry */
+.modal-content{
+    padding: 10%;
+    color: #122b40;
+}
+
+.container-add{
+    width: 100%;
+
+
+}
+
+#sucessForm{
+
+    border-style: solid;
+    border-width: 2px 10px 4px 20px;
+    border-color: 	#ebcccc;
+
+}
+
+#myform{
+
+    border-style: solid;
+    border-width: 2px 10px 4px 20px;
+    border-color: 	#bad7de;
+
+}
+
+#submitButton {
+ padding: 14px 40px;
+}
+
